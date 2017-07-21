@@ -1,0 +1,55 @@
+{
+    "name": "gulp-rev-client",
+    "version": "1.1.215",
+    "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn-d41d8cd98f.css unicorn.css => unicorn.css?v=d41d8cd98f",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zhangli254804018/gulp-rev-client"
+    },
+    "author": "li.zhang",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+        "test": "xo && mocha"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "gulpplugin",
+        "rev",
+        "revving",
+        "revision",
+        "hash",
+        "optimize",
+        "version",
+        "versioning",
+        "cache",
+        "expire",
+        "static",
+        "asset",
+        "assets"
+    ],
+    "dependencies": {
+        "gulp-util": "^3.0.0",
+        "modify-filename": "^1.1.0",
+        "object-assign": "^4.0.1",
+        "rev-hash": "^1.0.0",
+        "rev-path": "^1.0.0",
+        "sort-keys": "^1.0.0",
+        "through2": "^2.0.0",
+        "vinyl-file": "^1.1.0"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "xo": "*"
+    },
+    "xo": {
+        "envs": [
+            "node",
+            "mocha"
+        ]
+    }
+}
