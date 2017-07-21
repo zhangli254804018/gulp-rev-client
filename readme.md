@@ -209,7 +209,7 @@ For more info on how to integrate `gulp-rev-client` into your app, have a look a
 - 做出以下調整
 
 ```
-var rev = require('gulp-rev);
+var rev = require('gulp-rev-client);
 rev({
 	// 默認為false 壓縮後綴為 ./css/main.min.css?v=1e2c45287b
 	// 默認為true 壓縮後綴為 ./css/main.min.1e2c45287b.css
